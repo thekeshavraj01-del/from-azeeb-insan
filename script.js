@@ -56,3 +56,7 @@ function finalSurprise() {
     </div>
     `;
 }
+function playMusic() {
+    let music = new Audio("arctic_monkey_-_i_wanna_be_yours_(mp3.pm)-[AudioTrimmer.com].mp3");
+    music.play();
+}
