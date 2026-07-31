@@ -34,7 +34,7 @@ function finalSurprise() {
                 "@ndi b@ndi sh@ndi..." 😄😭
                 <br><br>
 
-                To our first meeting on 31 December 2024...
+                The 14th day of our Class 11 beginning...
                 <br><br>
 
                 And to our beautiful relationship that began on
