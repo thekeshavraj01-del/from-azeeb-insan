@@ -8,9 +8,7 @@ body{
 font-family:Arial,sans-serif;
 background: linear-gradient(135deg, #ff4d8d 0%, #8b5cf6 50%, #4f46e5 100%);
 min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
+display:block;
 padding:20px;
 color:white;
 overflow-x:hidden;
