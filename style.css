@@ -117,3 +117,46 @@ box-shadow:0 15px 35px rgba(255,255,255,.3);
 margin-bottom:12px;
 color:#fff;
 }
+/* ❤️ Floating Hearts ❤️ */
+
+.hearts{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    overflow:hidden;
+}
+
+.hearts span{
+    position:absolute;
+    bottom:-50px;
+    font-size:28px;
+    animation:floatHeart 12s linear infinite;
+}
+
+.hearts span:nth-child(1){left:5%;animation-delay:0s;}
+.hearts span:nth-child(2){left:18%;animation-delay:2s;}
+.hearts span:nth-child(3){left:32%;animation-delay:4s;}
+.hearts span:nth-child(4){left:46%;animation-delay:1s;}
+.hearts span:nth-child(5){left:60%;animation-delay:5s;}
+.hearts span:nth-child(6){left:74%;animation-delay:3s;}
+.hearts span:nth-child(7){left:86%;animation-delay:6s;}
+.hearts span:nth-child(8){left:95%;animation-delay:2s;}
+
+@keyframes floatHeart{
+    0%{
+        transform:translateY(0) rotate(0deg);
+        opacity:0;
+    }
+
+    10%{
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(-120vh) rotate(360deg);
+        opacity:0;
+    }
+}
